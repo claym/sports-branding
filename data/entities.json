@@ -1,144 +1,473 @@
 {
-  "epl": {
-    "bou": {
-      "name": "AFC Bournemouth",
-      "league": "epl",
-      "colors": {
-        "hex": ["E62333", "000000"]
-      }
-    },
-    "ars": {
-      "name": "Arsenal",
-      "league": "epl",
-      "colors": {
-        "hex": ["EF0107", "023474", "9C824A"]
-      }
-    },
-    "brh": {
-      "name": "Brighton & Hove Albion",
-      "league": "epl",
-      "colors": {
-        "hex": ["0055a9", "F8BC1B"]
-      }
-    },
-    "bur": {
-      "name": "Burnley",
-      "league": "epl",
-      "colors": {
-        "hex": ["8CCCE5", "53162F", "F9EC34"]
-      }
-    },
-    "che": {
-      "name": "Chelsea",
-      "league": "epl",
-      "colors": {
-        "hex": ["034694", "DBA111", "ED1C24"]
-      }
-    },
-    "cry": {
-      "name": "Crystal Palace",
-      "league": "epl",
-      "colors": {
-        "hex": ["1B458F", "C4122E", "A7A5A6"]
-      }
-    },
-    "eve": {
-      "name": "Everton",
-      "league": "epl",
-      "colors": {
-        "hex": ["274488"]
-      }
-    },
-    "hdd": {
-      "name": "Huddersfield Town",
-      "league": "epl",
-      "colors": {
-        "hex": ["0073d2"]
-      }
-    },
-    "lei": {
-      "name": "Leicester City",
-      "league": "epl",
-      "colors": {
-        "hex": ["FDBE11", "0053A0"]
-      }
-    },
-    "liv": {
-      "name": "Liverpool",
-      "league": "epl",
-      "colors": {
-        "hex": ["00A398", "D00027", "FEF667"]
-      }
-    },
-    "mci": {
-      "name": "Manchester City",
-      "league": "epl",
-      "colors": {
-        "hex": ["98c5e9", "00285e", "f4bc46"]
-      }
-    },
-    "mun": {
-      "name": "Manchester United",
-      "league": "epl",
-      "colors": {
-        "hex": ["DA020E", "FFE500", "000000"]
-      }
-    },
-    "new": {
-      "name": "Newcastle United",
-      "league": "epl",
-      "colors": {
-        "hex": ["241f20", "00B8F4", "c3a572"]
-      }
-    },
-    "sou": {
-      "name": "Southampton",
-      "league": "epl",
-      "colors": {
-        "hex": ["ED1A3B", "211E1F", "FFC20E"]
-      }
-    },
-    "stk": {
-      "name": "Stoke City",
-      "league": "epl",
-      "colors": {
-        "hex": ["E03A3E", "1B449C"]
-      }
-    },
-    "swa": {
-      "name": "Swansea City",
-      "league": "epl",
-      "colors": {
-        "hex": ["000000"]
-      }
-    },
-    "tot": {
-      "name": "Tottenham Hotspur",
-      "league": "epl",
-      "colors": {
-        "hex": ["001C58"]
-      }
-    },
-    "wat": {
-      "name": "Watford",
-      "league": "epl",
-      "colors": {
-        "hex": ["FBEE23", "ED2127", "000000"]
-      }
-    },
-    "wba": {
-      "name": "West Bromwich Albion",
-      "league": "epl",
-      "colors": {
-        "hex": ["091453"]
-      }
-    },
-    "whu": {
-      "name": "West Ham United",
-      "league": "epl",
-      "colors": {
-        "hex": ["60223B", "F7C240", "5299C6"]
+  "EPL": {
+    "image": "leagues/epl.svg",
+    "name": "English Premier League",
+    "teams": {
+      "BOU": {
+        "name": "AFC Bournemouth",
+        "league": "EPL",
+        "images": ["epl/afc-bournemouth.svg"],
+        "colors": {
+          "hex": ["E62333", "000000"]
+        }
+      },
+      "ARS": {
+        "name": "Arsenal",
+        "league": "EPL",
+        "images": ["epl/arsenal.svg"],
+        "colors": {
+          "hex": ["EF0107", "023474", "9C824A"]
+        }
+      },    
+      "BRH": {
+        "name": "Brighton & Hove Albion",
+        "league": "EPL",
+        "images": ["epl/brighton-&-hove-albion.svg"],
+        "colors": {
+          "hex": ["0055a9", "F8BC1B"]
+        }
+      },
+      "BUR": {
+        "name": "Burnley",
+        "league": "EPL",
+        "images": ["epl/burnley.svg"],
+        "colors": {
+          "hex": ["8CCCE5", "53162F", "F9EC34"]
+        }
+      },
+      "CHE": {
+        "name": "Chelsea",
+        "league": "EPL",
+        "images": ["epl/chelsea.svg"],
+        "colors": {
+          "hex": ["034694", "DBA111", "ED1C24"]
+        }
+      },
+      "CRY": {
+        "name": "Crystal Palace",
+        "league": "EPL",
+        "images": ["epl/crystal-palace.svg"],
+        "colors": {
+          "hex": ["1B458F", "C4122E", "A7A5A6"]
+        }
+      },
+      "EVE": {
+        "name": "Everton",
+        "league": "EPL",
+        "images": ["epl/everton.svg"],
+        "colors": {
+          "hex": ["274488"]
+        }
+      },
+      "HDD": {
+        "name": "Huddersfield Town",
+        "league": "EPL",
+        "images": ["epl/huddersfield-town.svg"],
+        "colors": {
+          "hex": ["0073d2"]
+        }
+      },
+      "LEI": {
+        "name": "Leicester City",
+        "league": "EPL",
+        "images": ["epl/leicester-city.svg"],
+        "colors": {
+          "hex": ["FDBE11", "0053A0"]
+        }
+      },
+      "LIV": {
+        "name": "Liverpool",
+        "league": "EPL",
+        "images": ["epl/liverpool.svg"],
+        "colors": {
+          "hex": ["00A398", "D00027", "FEF667"]
+        }
+      },
+      "MCI": {
+        "name": "Manchester City",
+        "league": "EPL",
+        "images": ["epl/manchester-city.svg"],
+        "colors": {
+          "hex": ["98c5e9", "00285e", "f4bc46"]
+        }
+      },
+      "MUN": {
+        "name": "Manchester United",
+        "league": "EPL",
+        "images": ["epl/manchester-united.svg"],
+        "colors": {
+          "hex": ["DA020E", "FFE500", "000000"]
+        }
+      },
+      "NEW": {
+        "name": "Newcastle United",
+        "league": "EPL",
+        "images": ["epl/newcastle-united.svg"],
+        "colors": {
+          "hex": ["241f20", "00B8F4", "c3a572"]
+        }
+      },
+      "SOU": {
+        "name": "Southampton",
+        "league": "EPL",
+        "images": ["epl/southampton.svg"],
+        "colors": {
+          "hex": ["ED1A3B", "211E1F", "FFC20E"]
+        }
+      },
+      "STK": {
+        "name": "Stoke City",
+        "league": "EPL",
+        "images": ["epl/stoke-city.svg"],
+        "colors": {
+          "hex": ["E03A3E", "1B449C"]
+        }
+      },
+      "SWA": {
+        "name": "Swansea City",
+        "league": "EPL",
+        "images": ["epl/swansea-city.svg"],
+        "colors": {
+          "hex": ["000000"]
+        }
+      },
+      "TOT": {
+        "name": "Tottenham Hotspur",
+        "league": "EPL",
+        "images": ["epl/tottenham-hotspur.svg"],
+        "colors": {
+          "hex": ["001C58"]
+        }
+      },
+      "WAT": {
+        "name": "Watford",
+        "league": "EPL",
+        "images": ["epl/watford.svg"],
+        "colors": {
+          "hex": ["FBEE23", "ED2127", "000000"]
+        }
+      },
+      "WBA": {
+        "name": "West Bromwich Albion",
+        "league": "EPL",
+        "images": ["epl/west-bromwich-albion.svg"],
+        "colors": {
+          "hex": ["091453"]
+        }
+      },
+      "WHU": {
+        "name": "West Ham United",
+        "league": "EPL",
+        "images": ["epl/west-ham-united.svg"],
+        "colors": {
+          "hex": ["60223B", "F7C240", "5299C6"]
+        }
       }
     }
-  }
+
+  },
+  "MLB": {
+    "name": "Major League Baseball",
+    "image": "leagues/mlb.svg",
+    "teams": {
+
+    }
+  },
+  "MLS": {
+    "name": "Major League Soccer",
+    "image": "leagues/mls.svg",
+    "teams": {
+
+    }
+  },
+  "NBA": {
+    "name": "National Basketball Association",
+    "image": "leagues/nba.svg",
+    "teams": {
+      "ATL": {
+        "name": "Atlanta Hawks",
+        "league": "nba",
+        "colors": {
+          "rgb": ["225 58 62", "196 214 0", "6 25 34"],
+          "cmyk": ["0 91 76 6", "29 2 100 0", "30 0 0 100"],
+          "pms": ["186", "382", "Black"]
+        }
+      },
+      "BOS": {
+        "name": "Boston Celtics",
+        "league": "nba",
+        "colors": {
+          "rgb": ["0 131 72", "187 151 83", "167 56 50", "250 179 131", "6 25 34"],
+          "cmyk": ["100 0 91 27", "30 40 80 0", "40 95 100 0", "0 35 50 0", "30 0 0 100"],
+          "pms": ["356", "874", "174", "472", "Black"]
+        }
+      },
+      "BKN": {
+        "name": "Brooklyn Nets",
+        "league": "nba",
+        "colors": {
+          "rgb": ["6 25 34"],
+          "cmyk": ["30 0 0 100"],
+          "pms": ["Black"]
+        }
+      },
+      "CHA": {
+        "name": "Charlotte Hornets",
+        "league": "nba",
+        "colors": {
+          "rgb": ["29 17 96", "0 140 168", "161 161 164"],
+          "cmyk": ["98 100 0 43", "100 0 19 23", "0 1 0 43"],
+          "pms": ["275", "3145", "Cool Gray 8"]
+        }
+      },
+      "CHI": {
+        "name": "Chicago Bulls",
+        "league": "nba",
+        "colors": {
+          "rgb": ["206 17 65", "6 25 34"],
+          "cmyk": ["0 100 65 15", "30 0 0 100"],
+          "pms": ["200", "Black"]
+        }
+      },
+      "CLE": {
+        "name": "Cleveland Cavaliers",
+        "league": "nba",
+        "colors": {
+          "rgb": ["134 0 56", "253 187 48", "0 45 98"],
+          "cmyk": ["0 100 34 53", "0 29 91 0", "100 68 54 0"],
+          "pms": ["209", "1235", "282"]
+        }
+      },
+      "DAL": {
+        "name": "Dallas Mavericks",
+        "league": "nba",
+        "colors": {
+          "rgb": ["0 125 197", "196 206 211", "6 25 34", "32 56 91"],
+          "cmyk": ["100 40 0 0", "5 0 0 20", "30 0 0 100", "94 79 36 32"],
+          "pms": ["2935", "877", "Black", "289"]
+        }
+      },
+      "DEN": {
+        "name": "Denver Nuggets",
+        "league": "nba",
+        "colors": {
+          "rgb": ["77 144 205", "253 185 39", "15 88 108"],
+          "cmyk": ["69 34 0 0", "0 30 94 0", "100 72 56 0"],
+          "pms": ["279", "123", "282"]
+        }
+      },
+      "DET": {
+        "name": "Detroit Pistons",
+        "league": "nba",
+        "colors": {
+          "rgb": ["237 23 76", "0 107 182", "15 88 108"],
+          "cmyk": ["0 100 65 0", "100 56 0 0", "100 72 0 56"],
+          "pms": ["199", "293", "282"]
+        }
+      },
+      "GSW": {
+        "name": "Golden State Warriors",
+        "league": "nba",
+        "colors": {
+          "rgb": ["253 185 39", "0 107 182", "38 40 42"],
+          "cmyk": ["0 30 94 0", "100 56 0 0", "73 65 62 67"],
+          "pms": ["123", "293", "426"]
+        }
+      },
+      "HOU": {
+        "name": "Houston Rockets",
+        "league": "nba",
+        "colors": {
+          "rgb": ["206 17 65", "196 206 211", "6 25 34", "253 185 39"],
+          "cmyk": ["100 65 15", "5 0 0 20", "30 0 0 100", "0 30 94 0"],
+          "pms": ["200", "877", "Black", "123"]
+        }
+      },
+      "IND": {
+        "name": "Indiana Pacers",
+        "league": "nba",
+        "colors": {
+          "rgb": ["255 198 51", "0 39 93", "190 192 194"],
+          "cmyk": ["0 23 90 0", "100 72 0 56", "0 0 0 29"],
+          "pms": ["1235", "282", "Cool Gray 5"]
+        }
+      },
+      "LAC": {
+        "name": "Los Angeles Clippers",
+        "league": "nba",
+        "colors": {
+          "rgb": ["237 23 76", "0 107 182", "6 25 34", "190 192 194"],
+          "cmyk": ["0 100 65 0", "100 56 0 0", "30 0 0 100", "0 0 0 29"],
+          "pms": ["199", "293", "Black", "Cool Gray 5"]
+        }
+      },
+      "LAL": {
+        "name": "Los Angeles Lakers",
+        "league": "nba",
+        "colors": {
+          "rgb": ["253 185 39", "85 37 130", "6 25 34", "129 119 183"],
+          "cmyk": ["0 30 94 0", "79 100 0 12", "30 100 0 0", "54 56 0 0"],
+          "pms": ["123", "526", "Black", "265"]
+        }
+      },
+      "MEM": {
+        "name": "Memphis Grizzlies",
+        "league": "nba",
+        "colors": {
+          "rgb": ["15 88 108", "115 153 198", "190 212 233", "253 185 39"],
+          "cmyk": ["100 72 0 56", "50 25 0 10", "24 9 2 0", "0 30 94 0"],
+          "pms": ["289", "652", "650", "123"]
+        }
+      },
+      "MIA": {
+        "name": "Miami Heat",
+        "league": "nba",
+        "colors": {
+          "rgb": ["152 0 46", "249 160 27", "6 25 34", "188 190 192"],
+          "cmyk": ["0 100 61 43", "0 43 100 0", "30 0 0 100", "40 0 0 0"],
+          "pms": ["202", "137", "Black", "877"]
+        }
+      },
+      "MIL": {
+        "name": "Milwaukee Bucks",
+        "league": "nba",
+        "colors": {
+          "rgb": ["0 71 27", "240 235 210", "6 25 34", "0 125 197"],
+          "cmyk": ["80 0 90 75", "6 9 23 0", "20 20 20 100", "100 45 0 0"],
+          "pms": ["350", "468", "Black", "2935"]
+        }
+      },
+      "MIN": {
+        "name": "Minnesota Timberwolves",
+        "league": "nba",
+        "colors": {
+          "rgb": ["0 80 131", "0 169 79", "196 206 211", "255 230 0", "224 58 63", "6 25 34"],
+          "cmyk": ["95 45 0 40", "94 0 100 0", "5 0 0 20", "0 5 100 0", "0 91 75 6", "30 0 0 100"],
+          "pms": ["647", "355", "877", "012", "186", "Black"]
+        }
+      },
+      "NOP": {
+        "name": "New Orleans Pelicans",
+        "league": "nba",
+        "colors": {
+          "rgb": ["0 43 92", "227 24 55", "180 151 90"],
+          "cmyk": ["100 64 0 60", "0 100 81 4", "20 30 70 15"],
+          "pms": ["289", "186", "872"]
+        }
+      },
+      "NYK": {
+        "name": "New York Knicks",
+        "league": "nba",
+        "colors": {
+          "rgb": ["0 107 182", "245 132 38", "190 192 194", "35 31 32"],
+          "cmyk": ["100 56 0 0", "0 59 96 0", "0 0 0 29", "30 0 0 100"],
+          "pms": ["293", "165", "Cool Gray 5", "Black"]
+        }
+      },
+      "OKC": {
+        "name": "Oklahoma City Thunder",
+        "league": "nba",
+        "colors": {
+          "rgb": ["0 125 195", "240 81 51", "253 187 48", "0 45 98"],
+          "cmyk": ["89 43 0 0", "0 84 88 0", "0 29 91 0", "100 68 0 54"],
+          "pms": ["285C", "1788C", "1235C", "282C"]
+        }
+      },
+      "ORL": {
+        "name": "Orlando Magic",
+        "league": "nba",
+        "colors": {
+          "rgb": ["0 125 197", "196 206 211", "6 25 34"],
+          "cmyk": ["100 40 0 0", "5 0 0 20", "30 0 0 100"],
+          "pms": ["2935", "877", "Black"]
+        }
+      },
+      "PHI": {
+        "name": "Philadelphia 76ers",
+        "league": "nba",
+        "colors": {
+          "rgb": ["237 23 76", "0 107 182", "0 43 92", "196 206 211"],
+          "cmyk": ["0 100 65 0", "100 56 0 0", "100 64 0 60", "5 0 0 20"],
+          "pms": ["199", "293", "289", "877"]
+        }
+      },
+      "PHX": {
+        "name": "Phoenix Suns",
+        "league": "nba",
+        "colors": {
+          "rgb": ["229 96 32", "29 17 96", "99 113 122", "249 160 27", "185 89 21", "190 192 194", "6 25 34"],
+          "cmyk": ["0 75 100 5", "98 100 0 43", "15 0 0 65", "0 43 100 0", "0 67 100 28", "0 0 0 29", "30 0 0 100"],
+          "pms": ["159", "275", "431", "137", "1675", "Cool Gray 5", "Black"]
+        }
+      },
+      "POR": {
+        "name": "Portland Trail Blazers",
+        "league": "nba",
+        "colors": {
+          "rgb": ["224 58 62", "186 195 201", "6 25 34"],
+          "cmyk": ["0 91 76 6", "5 0 0 25", "30 0 0 100"],
+          "pms": ["186", "877", "Black"]
+        }
+      },
+      "SAC": {
+        "name": "Sacramento Kings",
+        "league": "nba",
+        "colors": {
+          "rgb": ["114 76 159", "142 144 144", "6 25 34"],
+          "cmyk": ["65 82 0 0", "46 37 38 2", "30 0 0 100"],
+          "pms": ["266", "877", "Black"]
+        }
+      },
+      "SAS": {
+        "name": "San Antonio Spurs",
+        "league": "nba",
+        "colors": {
+          "rgb": ["186 195 201", "6 25 34"],
+          "cmyk": ["5 0 0 25", "30 0 0 100"],
+          "pms": ["877", "Black"]
+        }
+      },
+      "TOR": {
+        "name": "Toronto Raptors",
+        "league": "nba",
+        "colors": {
+          "rgb": ["206 17 65", "6 25 34", "161 161 164", "180 151 90"],
+          "cmyk": ["0 100 65 15", "30 0 0 100", "0 1 0 43", "20 30 70 15"],
+          "pms": ["200", "Black", "Cool Gray 8", "872"]
+        }
+      },
+      "UTA": {
+        "name": "Utah Jazz",
+        "league": "nba",
+        "colors": {
+          "rgb": ["0 43 92", "249 160 27", "0 71 27", "190 192 194"],
+          "cmyk": ["100 64 0 60", "0 43 100 0", "80 0 90 75", "0 0 0 29"],
+          "pms": ["289", "137", "350", "Cool Gray 5"]
+        }
+      },
+      "WAS": {
+        "name": "Washington Wizards",
+        "league": "nba",
+        "colors": {
+          "rgb": ["0 43 92", "227 24 55", "196 206 212"],
+          "cmyk": ["100 64 0 60", "0 100 81 4", "5 0 0 20"],
+          "pms": ["289", "186", "877"]
+        }
+      }    
+    }
+  },
+  "NFL": {
+    "name": "National Football League",
+    "image": "leagues/nfl.svg",
+    "teams": {
+
+    }
+  },
+  "NHL": {
+    "name": "National Hockey League",
+    "image": "leagues/nhl.svg",
+    "teams": {
+
+    }
+  }  
 }

@@ -6,25 +6,21 @@ const entities = require(entitiesFiles);
 const logoDir = './data/img/';
 
 module.exports = {
-    /**
-    getLogo: function (league, team) {
 
+    getLogo: function (leagueAbbr, teamAbbr) {
+        var team = getTeamEntry(leagueAbbr, teamAbbr);
+        return team.images[0];
     },
-    **/
+
     getColors: function (leagueAbbr, teamAbbr) {
-        var league = entities[leagueAbbr.toLowerCase()];
-        if (!league) {
-            throw "League not found!";
-        }
-        var team = league[teamAbbr.toLowerCase()];
-        if (!team) {
-            throw "Team not found!";
-        }
+        var team = getTeamEntry(leagueAbbr, teamAbbr);
         var colors = team.colors;
         if (!colors.hex || colors.hex.length == 0) {
             var hexes = new Array();
-            colors.rgb.foreach(function (value) {
-                hexes.push(rgbToHex(value));
+            console.log(colors.rgb);
+            console.log(colors.rgb.length);
+            Array.prototype.forEach.call(colors.rgb, child => {
+                hexes.push(rgbToHex(child));
             })
             colors.hex = hexes;
         }
@@ -34,6 +30,18 @@ module.exports = {
         var colors = this.getColors(leagueAbbr, teamAbbr);
         return colors[0];
     }
+}
+
+function getTeamEntry(leagueAbbr, teamAbbr) {
+    var league = entities[leagueAbbr.toUpperCase()];
+    if (!league) {
+        throw "League not found!";
+    }
+    var team = league.teams[teamAbbr.toUpperCase()];
+    if (!team) {
+        throw "Team not found!";
+    }
+    return team;
 }
 
 /** This stuff taken directly from https://github.com/jimniels/teamcolors/blob/master/src/scripts/utils/rgbHexConversion.js because I am lazy */

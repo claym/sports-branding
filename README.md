@@ -2,6 +2,8 @@
 
 node module to return sports team colors and logos
 
+supports EPL, MLB, MLS, NBA, NFL, NHL
+
 ## Install
 `npm install node-stattleship`
 
