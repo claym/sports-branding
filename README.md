@@ -13,7 +13,7 @@ var branding = require('sports-branding');
 
 var primaryColor = branding.getPrimaryColor('EPL', 'MCI');
 
-var colors = branding.getColors('NBA', 'CHA') // NBA data not present yet
+var colors = branding.getColors('NBA', 'CHA') 
 
 var logo = branding.getLogo('NFL', 'CAR')
 ```
