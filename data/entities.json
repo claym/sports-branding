@@ -1,0 +1,144 @@
+{
+  "epl": {
+    "bou": {
+      "name": "AFC Bournemouth",
+      "league": "epl",
+      "colors": {
+        "hex": ["E62333", "000000"]
+      }
+    },
+    "ars": {
+      "name": "Arsenal",
+      "league": "epl",
+      "colors": {
+        "hex": ["EF0107", "023474", "9C824A"]
+      }
+    },
+    "brh": {
+      "name": "Brighton & Hove Albion",
+      "league": "epl",
+      "colors": {
+        "hex": ["0055a9", "F8BC1B"]
+      }
+    },
+    "bur": {
+      "name": "Burnley",
+      "league": "epl",
+      "colors": {
+        "hex": ["8CCCE5", "53162F", "F9EC34"]
+      }
+    },
+    "che": {
+      "name": "Chelsea",
+      "league": "epl",
+      "colors": {
+        "hex": ["034694", "DBA111", "ED1C24"]
+      }
+    },
+    "cry": {
+      "name": "Crystal Palace",
+      "league": "epl",
+      "colors": {
+        "hex": ["1B458F", "C4122E", "A7A5A6"]
+      }
+    },
+    "eve": {
+      "name": "Everton",
+      "league": "epl",
+      "colors": {
+        "hex": ["274488"]
+      }
+    },
+    "hdd": {
+      "name": "Huddersfield Town",
+      "league": "epl",
+      "colors": {
+        "hex": ["0073d2"]
+      }
+    },
+    "lei": {
+      "name": "Leicester City",
+      "league": "epl",
+      "colors": {
+        "hex": ["FDBE11", "0053A0"]
+      }
+    },
+    "liv": {
+      "name": "Liverpool",
+      "league": "epl",
+      "colors": {
+        "hex": ["00A398", "D00027", "FEF667"]
+      }
+    },
+    "mci": {
+      "name": "Manchester City",
+      "league": "epl",
+      "colors": {
+        "hex": ["98c5e9", "00285e", "f4bc46"]
+      }
+    },
+    "mun": {
+      "name": "Manchester United",
+      "league": "epl",
+      "colors": {
+        "hex": ["DA020E", "FFE500", "000000"]
+      }
+    },
+    "new": {
+      "name": "Newcastle United",
+      "league": "epl",
+      "colors": {
+        "hex": ["241f20", "00B8F4", "c3a572"]
+      }
+    },
+    "sou": {
+      "name": "Southampton",
+      "league": "epl",
+      "colors": {
+        "hex": ["ED1A3B", "211E1F", "FFC20E"]
+      }
+    },
+    "stk": {
+      "name": "Stoke City",
+      "league": "epl",
+      "colors": {
+        "hex": ["E03A3E", "1B449C"]
+      }
+    },
+    "swa": {
+      "name": "Swansea City",
+      "league": "epl",
+      "colors": {
+        "hex": ["000000"]
+      }
+    },
+    "tot": {
+      "name": "Tottenham Hotspur",
+      "league": "epl",
+      "colors": {
+        "hex": ["001C58"]
+      }
+    },
+    "wat": {
+      "name": "Watford",
+      "league": "epl",
+      "colors": {
+        "hex": ["FBEE23", "ED2127", "000000"]
+      }
+    },
+    "wba": {
+      "name": "West Bromwich Albion",
+      "league": "epl",
+      "colors": {
+        "hex": ["091453"]
+      }
+    },
+    "whu": {
+      "name": "West Ham United",
+      "league": "epl",
+      "colors": {
+        "hex": ["60223B", "F7C240", "5299C6"]
+      }
+    }
+  }
+}
