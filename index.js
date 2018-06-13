@@ -17,8 +17,6 @@ module.exports = {
         var colors = team.colors;
         if (!colors.hex || colors.hex.length == 0) {
             var hexes = new Array();
-            console.log(colors.rgb);
-            console.log(colors.rgb.length);
             Array.prototype.forEach.call(colors.rgb, child => {
                 hexes.push(rgbToHex(child));
             })

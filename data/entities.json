@@ -18,7 +18,7 @@
         "colors": {
           "hex": ["EF0107", "023474", "9C824A"]
         }
-      },    
+      },
       "BRH": {
         "name": "Brighton & Hove Albion",
         "league": "EPL",
@@ -170,14 +170,441 @@
     "name": "Major League Baseball",
     "image": "leagues/mlb.svg",
     "teams": {
-
+      "ARI": {
+        "name": "Arizona Diamondbacks",
+        "league": "mlb",
+        "images": ["mlb/arizona-diamondbacks.svg"],
+        "colors": {
+          "hex": ["A71930", "000000", "E3D4AD"]
+        }
+      },
+      "ATL": {
+        "name": "Atlanta Braves",
+        "league": "mlb",
+        "images": ["mlb/atlanta-braves.svg"],
+        "colors": {
+          "hex": ["CE1141", "13274F"]
+        }
+      },
+      "BAL": {
+        "name": "Baltimore Orioles",
+        "league": "mlb",
+        "images": ["mlb/baltimore-orioles.svg"],
+        "colors": {
+          "hex": ["DF4601", "000000"]
+        }
+      },
+      "BOS": {
+        "name": "Boston Red Sox",
+        "league": "mlb",
+        "images": ["mlb/boston-red-sox.svg"],
+        "colors": {
+          "hex": ["BD3039", "0D2B56"]
+        }
+      },
+      "CHC": {
+        "name": "Chicago Cubs",
+        "league": "mlb",
+        "images": ["mlb/chicago-cubs.svg"],
+        "colors": {
+          "hex": ["CC3433", "0E3386"]
+        }
+      },
+      "CWS": {
+        "name": "Chicago White Sox",
+        "league": "mlb",
+        "images": ["mlb/chicago-white-sox.svg"],
+        "colors": {
+          "hex": ["000000", "C4CED4"]
+        }
+      },
+      "CIN": {
+        "name": "Cincinnati Reds",
+        "league": "mlb",
+        "images": ["mlb/cincinnati-reds.svg"],
+        "colors": {
+          "hex": ["C6011F", "000000"]
+        }
+      },
+      "CLE": {
+        "name": "Cleveland Indians",
+        "league": "mlb",
+        "images": ["mlb/cleveland-indians.svg"],
+        "colors": {
+          "hex": ["E31937", "002B5C"]
+        }
+      },      
+      "COL": {
+        "name": "Colorado Rockies",
+        "league": "mlb",
+        "images": ["mlb/colorado-rockies.svg"],
+        "colors": {
+          "hex": ["333366", "231F20", "C4CED4"]
+        }
+      },
+      "DET": {
+        "name": "Detroit Tigers",
+        "league": "mlb",
+        "images": ["mlb/detroit-tigers.svg"],
+        "colors": {
+          "hex": ["0C2C56"]
+        }
+      },
+      "HOU": {
+        "name": "Houston Astros",
+        "league": "mlb",
+        "images": ["mlb/houston-astros.svg"],
+        "colors": {
+          "hex": ["002D62", "EB6E1F"]
+        }
+      },
+      "KC": {
+        "name": "Kansas City Royals",
+        "league": "mlb",
+        "images": ["mlb/kansas-city-royals.svg"],
+        "colors": {
+          "hex": ["004687", "C09A5B"]
+        }
+      },
+      "LAA": {
+        "name": "Los Angeles Angels of Anaheim",
+        "league": "mlb",
+        "images": ["mlb/los-angeles-angels-of-anaheim.svg"],
+        "colors": {
+          "hex": ["BA0021", "003263"]
+        }
+      },
+      "LAD": {
+        "name": "Los Angeles Dodgers",
+        "league": "mlb",
+        "images": ["mlb/los-angeles-dodgers.svg"],
+        "colors": {
+          "hex": ["EF3E42", "005A9C"]
+        }
+      },
+      "MIA": {
+        "name": "Miami Marlins",
+        "league": "mlb",
+        "images": ["mlb/miami-marlins.svg"],
+        "colors": {
+          "hex": ["FF6600", "0077C8", "FFD100", "000000"]
+        }
+      },
+      "MIL": {
+        "name": "Milwaukee Brewers",
+        "league": "mlb",
+        "images": ["mlb/milwaukee-brewers.svg"],
+        "colors": {
+          "hex": ["0A2351", "B6922E"]
+        }
+      },
+      "MIN": {
+        "name": "Minnesota Twins",
+        "league": "mlb",
+        "images": ["mlb/minnesota-twins.svg"],
+        "colors": {
+          "hex": ["002B5C", "D31145"]
+        }
+      },
+      "NYM": {
+        "name": "New York Mets",
+        "league": "mlb",
+        "images": ["mlb/new-york-mets.svg"],
+        "colors": {
+          "hex": ["FF5910", "002D72"]
+        }
+      },
+      "NYY": {
+        "name": "New York Yankees",
+        "league": "mlb",
+        "images": ["mlb/new-york-yankees.svg"],
+        "colors": {
+          "hex": ["E4002B", "003087"]
+        }
+      },
+      "OAK": {
+        "name": "Oakland Athletics",
+        "league": "mlb",
+        "images": ["mlb/oakland-athletics.svg"],
+        "colors": {
+          "hex": ["003831", "EFB21E"]
+        }
+      },
+      "PHI": {
+        "name": "Philadelphia Phillies",
+        "league": "mlb",
+        "images": ["mlb/philadelphia-phillies.svg"],
+        "colors": {
+          "hex": ["284898", "E81828"]
+        }
+      },
+      "PIT": {
+        "name": "Pittsburgh Pirates",
+        "league": "mlb",
+        "images": ["mlb/pittsburgh-pirates.svg"],
+        "colors": {
+          "hex": ["FDB827", "000000"]
+        }
+      },
+      "SD": {
+        "name": "San Diego Padres",
+        "league": "mlb",
+        "images": ["mlb/san-diego-padres.svg"],
+        "colors": {
+          "hex": ["002D62", "FEC325", "7F411C", "A0AAB2"]
+        }
+      },
+      "SF": {
+        "name": "San Francisco Giants",
+        "league": "mlb",
+        "images": ["mlb/san-francisco-giants.svg"],
+        "colors": {
+          "hex": ["FD5A1E", "000000", "8B6F4E"]
+        }
+      },
+      "SEA": {
+        "name": "Seattle Mariners",
+        "league": "mlb",
+        "images": ["mlb/seattle-mariners.svg"],
+        "colors": {
+          "hex": ["0C2C56", "005C5C", "C4CED4"]
+        }
+      },
+      "STL": {
+        "name": "St Louis Cardinals",
+        "league": "mlb",
+        "images": ["mlb/st-louis-cardinals.svg"],
+        "colors": {
+          "hex": ["C41E3A", "000066", "FEDB00"]
+        }
+      },
+      "TB": {
+        "name": "Tampa Bay Rays",
+        "league": "mlb",
+        "images": ["mlb/tampa-bay-rays.svg"],
+        "colors": {
+          "hex": ["092C5C", "8FBCE6", "F5D130"]
+        }
+      },
+      "TEX": {
+        "name": "Texas Rangers",
+        "league": "mlb",
+        "images": ["mlb/texas-rangers.svg"],
+        "colors": {
+          "hex": ["C0111F", "003278"]
+        }
+      },
+      "TOR": {
+        "name": "Toronto Blue Jays",
+        "league": "mlb",
+        "images": ["mlb/toronto-blue-jays.svg"],
+        "colors": {
+          "hex": ["134A8E", "1D2D5C", "E8291C"]
+        }
+      },
+      "WSH": {
+        "name": "Washington Nationals",
+        "league": "mlb",
+        "images": ["mlb/washington-nationals.svg"],
+        "colors": {
+          "hex": ["AB0003", "11225B"]
+        }
+      }
     }
   },
   "MLS": {
     "name": "Major League Soccer",
     "image": "leagues/mls.svg",
     "teams": {
-
+      "ATL": {
+        "name": "Atlanta United FC",
+        "league": "mls",
+        "images": ["mls/atlanta-united-fc.svg"],
+        "colors": {
+          "hex": ["A29061", "80000B", "000000"]
+        }
+      },
+      "CHI": {
+        "name": "Chicago Fire",
+        "league": "mls",
+        "images": ["mls/chicago-fire.svg"],
+        "colors": {
+          "hex": ["AF2626", "0A174A", "8A8D8F"]
+        }
+      },
+      "COL": {
+        "name": "Colorado Rapids",
+        "league": "mls",
+        "images": ["mls/colorado-rapids.svg"],
+        "colors": {
+          "hex": ["91022D", "85B7EA", "8A8D8F", "313F49"]
+        }
+      },
+      "CLB": {
+        "name": "Columbus Crew",
+        "league": "mls",
+        "images": ["mls/columbus-crew.svg"],
+        "colors": {
+          "hex": ["000000", "FFDB00", "8A8D8F"]
+        }
+      },
+      "DC": {
+        "name": "DC United",
+        "league": "mls",
+        "images": ["mls/dc-united.svg"],
+        "colors": {
+          "hex": ["000000", "DD0000"]
+        }
+      },
+      "DAL": {
+        "name": "FC Dallas",
+        "league": "mls",
+        "images": ["mls/fc-dallas.svg"],
+        "colors": {
+          "hex": ["CF0032", "07175C", "8A8D8F"]
+        }
+      },
+      "HOU": {
+        "name": "Houston Dynamo",
+        "league": "mls",
+        "images": ["mls/houston-dynamo.svg"],
+        "colors": {
+          "hex": ["F36600", "2E2926", "85B7EA"]
+        }
+      },
+      "LA": {
+        "name": "LA Galaxy",
+        "league": "mls",
+        "images": ["mls/la-galaxy.svg"],
+        "colors": {
+          "hex": ["00245D", "004689", "F1AA00", "FFD200"]
+        }
+      },
+      "LFC": {
+        "name": "Los Angeles Football Club",
+        "league": "mls",
+        "images": ["mls/los-angeles-football-club.svg"],
+        "colors": {
+          "hex": ["000000", "C39E6D", "E31837", "55565A", "B3B2B1"]
+        }
+      },      
+      "MIN": {
+        "name": "Minnesota United FC",
+        "league": "mls",
+        "images": ["mls/minnesota-united-fc.svg"],
+        "colors": {
+          "hex": ["CFD4D8", "6CADDF", "000000"]
+        }
+      },
+      "MTL": {
+        "name": "Montreal Impact",
+        "league": "mls",
+        "images": ["mls/montreal-impact.svg"],
+        "colors": {
+          "hex": ["122089", "000000", "7A878F"]
+        }
+      },
+      "NE": {
+        "name": "New England Revolution",
+        "league": "mls",
+        "images": ["mls/new-england-revolution.svg"],
+        "colors": {
+          "hex": ["0A2141", "D80016", "8A8D8F"]
+        }
+      },
+      "NYC": {
+        "name": "New York City FC",
+        "league": "mls",
+        "images": ["mls/new-york-city-fc.svg"],
+        "colors": {
+          "hex": ["6CADDF", "00285E", "FD4F00"]
+        }
+      },
+      "NY": {
+        "name": "New York Red Bulls",
+        "league": "mls",
+        "images": ["mls/new-york-red-bulls.svg"],
+        "colors": {
+          "hex": ["D50031", "012055", "FFC800", "8A8D8F"]
+        }
+      },      
+      "ORL": {
+        "name": "Orlando City SC",
+        "league": "mls",
+        "images": ["mls/orlando-city-sc.svg"],
+        "colors": {
+          "hex": ["633492", "FDE192"]
+        }
+      },
+      "PHI": {
+        "name": "Philadelphia Union",
+        "league": "mls",
+        "images": ["mls/philadelphia-union.svg"],
+        "colors": {
+          "hex": ["002D55", "5090CD", "B38707", "B49759", "F4F4F4"],
+          "rgb": ["0 45 86", "80 145 205", "179 136 8", "180 151 90", "244 244 244"],
+          "cmyk": ["100 46 0 70", "68 34 0 0", "0 27 100 34", "20 30 70 15", "3 2 2 0"]
+        }
+      },
+      "POR": {
+        "name": "Portland Timbers",
+        "league": "mls",
+        "images": ["mls/portland-timbers.svg"],
+        "colors": {
+          "hex": ["004812", "EBE72B"]
+        }
+      },
+      "RSL": {
+        "name": "Real Salt Lake",
+        "league": "mls",
+        "images": ["mls/real-salt-lake.svg"],
+        "colors": {
+          "hex": ["A50531", "013474", "F2D11A"]
+        }
+      },
+      "SJ": {
+        "name": "San Jose Earthquakes",
+        "league": "mls",
+        "images": ["mls/san-jose-earthquakes.svg"],
+        "colors": {
+          "hex": ["0051BA", "000000", "B1B4B2"]
+        }
+      },
+      "SEA": {
+        "name": "Seattle Sounders FC",
+        "league": "mls",
+        "images": ["mls/seattle-sounders-fc.svg"],
+        "colors": {
+          "hex": ["4F8A10", "11568C", "212930"]
+        }
+      },
+      "SKC": {
+        "name": "Sporting Kansas City",
+        "league": "mls",
+        "images": ["mls/sporting-kansas-city.svg"],
+        "colors": {
+          "hex": ["91b0d5", "002b5c", "9fa1a4"],
+          "rgb": ["145 176 213", "0 43 92", "152 152 145"],
+          "cmyk": ["38 18 0 6", "100 64 0 60", "0 0 0 44"],
+          "pms": ["651", "289", "423"]
+        }
+      },
+      "TOR": {
+        "name": "Toronto FC",
+        "league": "mls",
+        "images": ["mls/toronto-fc.svg"],
+        "colors": {
+          "hex": ["D80016", "313F49", "A1AAAD"]
+        }
+      },
+      "VAN": {
+        "name": "Vancouver Whitecaps FC",
+        "league": "mls",
+        "images": ["mls/vancouver-whitecaps-fc.svg"],
+        "colors": {
+          "hex": ["12264C", "85B7EA", "838383"]
+        }
+      }
     }
   },
   "NBA": {
@@ -187,6 +614,7 @@
       "ATL": {
         "name": "Atlanta Hawks",
         "league": "nba",
+        "images": ["nba/atlanta-hawks.svg"],
         "colors": {
           "rgb": ["225 58 62", "196 214 0", "6 25 34"],
           "cmyk": ["0 91 76 6", "29 2 100 0", "30 0 0 100"],
@@ -196,6 +624,7 @@
       "BOS": {
         "name": "Boston Celtics",
         "league": "nba",
+        "images": ["nba/boston-celtics.svg"],
         "colors": {
           "rgb": ["0 131 72", "187 151 83", "167 56 50", "250 179 131", "6 25 34"],
           "cmyk": ["100 0 91 27", "30 40 80 0", "40 95 100 0", "0 35 50 0", "30 0 0 100"],
@@ -205,6 +634,7 @@
       "BKN": {
         "name": "Brooklyn Nets",
         "league": "nba",
+        "images": ["nba/brooklyn-nets.svg"],
         "colors": {
           "rgb": ["6 25 34"],
           "cmyk": ["30 0 0 100"],
@@ -214,6 +644,7 @@
       "CHA": {
         "name": "Charlotte Hornets",
         "league": "nba",
+        "images": ["nba/charlotte-hornets.svg"],
         "colors": {
           "rgb": ["29 17 96", "0 140 168", "161 161 164"],
           "cmyk": ["98 100 0 43", "100 0 19 23", "0 1 0 43"],
@@ -223,6 +654,7 @@
       "CHI": {
         "name": "Chicago Bulls",
         "league": "nba",
+        "images": ["nba/chicago-bulls.svg"],
         "colors": {
           "rgb": ["206 17 65", "6 25 34"],
           "cmyk": ["0 100 65 15", "30 0 0 100"],
@@ -232,6 +664,7 @@
       "CLE": {
         "name": "Cleveland Cavaliers",
         "league": "nba",
+        "images": ["nba/cleveland-cavaliers.svg"],
         "colors": {
           "rgb": ["134 0 56", "253 187 48", "0 45 98"],
           "cmyk": ["0 100 34 53", "0 29 91 0", "100 68 54 0"],
@@ -241,6 +674,7 @@
       "DAL": {
         "name": "Dallas Mavericks",
         "league": "nba",
+        "images": ["nba/dallas-mavericks.svg"],
         "colors": {
           "rgb": ["0 125 197", "196 206 211", "6 25 34", "32 56 91"],
           "cmyk": ["100 40 0 0", "5 0 0 20", "30 0 0 100", "94 79 36 32"],
@@ -250,6 +684,7 @@
       "DEN": {
         "name": "Denver Nuggets",
         "league": "nba",
+        "images": ["nba/denver-nuggets.svg"],
         "colors": {
           "rgb": ["77 144 205", "253 185 39", "15 88 108"],
           "cmyk": ["69 34 0 0", "0 30 94 0", "100 72 56 0"],
@@ -259,6 +694,7 @@
       "DET": {
         "name": "Detroit Pistons",
         "league": "nba",
+        "images": ["nba/detroit-pistons.svg"],
         "colors": {
           "rgb": ["237 23 76", "0 107 182", "15 88 108"],
           "cmyk": ["0 100 65 0", "100 56 0 0", "100 72 0 56"],
@@ -268,6 +704,7 @@
       "GSW": {
         "name": "Golden State Warriors",
         "league": "nba",
+        "images": ["nba/golden-state-warriors.svg"],
         "colors": {
           "rgb": ["253 185 39", "0 107 182", "38 40 42"],
           "cmyk": ["0 30 94 0", "100 56 0 0", "73 65 62 67"],
@@ -277,6 +714,7 @@
       "HOU": {
         "name": "Houston Rockets",
         "league": "nba",
+        "images": ["nba/houston-rockets.svg"],
         "colors": {
           "rgb": ["206 17 65", "196 206 211", "6 25 34", "253 185 39"],
           "cmyk": ["100 65 15", "5 0 0 20", "30 0 0 100", "0 30 94 0"],
@@ -286,6 +724,7 @@
       "IND": {
         "name": "Indiana Pacers",
         "league": "nba",
+        "images": ["nba/indiana-pacers.svg"],
         "colors": {
           "rgb": ["255 198 51", "0 39 93", "190 192 194"],
           "cmyk": ["0 23 90 0", "100 72 0 56", "0 0 0 29"],
@@ -295,6 +734,7 @@
       "LAC": {
         "name": "Los Angeles Clippers",
         "league": "nba",
+        "images": ["nba/los-angeles-clippers.svg"],
         "colors": {
           "rgb": ["237 23 76", "0 107 182", "6 25 34", "190 192 194"],
           "cmyk": ["0 100 65 0", "100 56 0 0", "30 0 0 100", "0 0 0 29"],
@@ -304,6 +744,7 @@
       "LAL": {
         "name": "Los Angeles Lakers",
         "league": "nba",
+        "images": ["nba/los-angeles-lakers.svg"],
         "colors": {
           "rgb": ["253 185 39", "85 37 130", "6 25 34", "129 119 183"],
           "cmyk": ["0 30 94 0", "79 100 0 12", "30 100 0 0", "54 56 0 0"],
@@ -313,6 +754,7 @@
       "MEM": {
         "name": "Memphis Grizzlies",
         "league": "nba",
+        "images": ["nba/memphis-grizzlies.svg"],
         "colors": {
           "rgb": ["15 88 108", "115 153 198", "190 212 233", "253 185 39"],
           "cmyk": ["100 72 0 56", "50 25 0 10", "24 9 2 0", "0 30 94 0"],
@@ -322,6 +764,7 @@
       "MIA": {
         "name": "Miami Heat",
         "league": "nba",
+        "images": ["nba/miami-heat.svg"],
         "colors": {
           "rgb": ["152 0 46", "249 160 27", "6 25 34", "188 190 192"],
           "cmyk": ["0 100 61 43", "0 43 100 0", "30 0 0 100", "40 0 0 0"],
@@ -331,6 +774,7 @@
       "MIL": {
         "name": "Milwaukee Bucks",
         "league": "nba",
+        "images": ["nba/milwaukee-bucks.svg"],
         "colors": {
           "rgb": ["0 71 27", "240 235 210", "6 25 34", "0 125 197"],
           "cmyk": ["80 0 90 75", "6 9 23 0", "20 20 20 100", "100 45 0 0"],
@@ -340,6 +784,7 @@
       "MIN": {
         "name": "Minnesota Timberwolves",
         "league": "nba",
+        "images": ["nba/minnesota-timberwolves.svg"],
         "colors": {
           "rgb": ["0 80 131", "0 169 79", "196 206 211", "255 230 0", "224 58 63", "6 25 34"],
           "cmyk": ["95 45 0 40", "94 0 100 0", "5 0 0 20", "0 5 100 0", "0 91 75 6", "30 0 0 100"],
@@ -349,6 +794,7 @@
       "NOP": {
         "name": "New Orleans Pelicans",
         "league": "nba",
+        "images": ["nba/new-orleans-pelicans.svg"],
         "colors": {
           "rgb": ["0 43 92", "227 24 55", "180 151 90"],
           "cmyk": ["100 64 0 60", "0 100 81 4", "20 30 70 15"],
@@ -358,6 +804,7 @@
       "NYK": {
         "name": "New York Knicks",
         "league": "nba",
+        "images": ["nba/new-york-knicks.svg"],
         "colors": {
           "rgb": ["0 107 182", "245 132 38", "190 192 194", "35 31 32"],
           "cmyk": ["100 56 0 0", "0 59 96 0", "0 0 0 29", "30 0 0 100"],
@@ -367,6 +814,7 @@
       "OKC": {
         "name": "Oklahoma City Thunder",
         "league": "nba",
+        "images": ["nba/oklahoma-city-thunder.svg"],
         "colors": {
           "rgb": ["0 125 195", "240 81 51", "253 187 48", "0 45 98"],
           "cmyk": ["89 43 0 0", "0 84 88 0", "0 29 91 0", "100 68 0 54"],
@@ -376,6 +824,7 @@
       "ORL": {
         "name": "Orlando Magic",
         "league": "nba",
+        "images": ["nba/orlando-magic.svg"],
         "colors": {
           "rgb": ["0 125 197", "196 206 211", "6 25 34"],
           "cmyk": ["100 40 0 0", "5 0 0 20", "30 0 0 100"],
@@ -385,6 +834,7 @@
       "PHI": {
         "name": "Philadelphia 76ers",
         "league": "nba",
+        "images": ["nba/philadelphia-76ers.svg"],
         "colors": {
           "rgb": ["237 23 76", "0 107 182", "0 43 92", "196 206 211"],
           "cmyk": ["0 100 65 0", "100 56 0 0", "100 64 0 60", "5 0 0 20"],
@@ -394,6 +844,7 @@
       "PHX": {
         "name": "Phoenix Suns",
         "league": "nba",
+        "images": ["nba/phoenix-suns.svg"],
         "colors": {
           "rgb": ["229 96 32", "29 17 96", "99 113 122", "249 160 27", "185 89 21", "190 192 194", "6 25 34"],
           "cmyk": ["0 75 100 5", "98 100 0 43", "15 0 0 65", "0 43 100 0", "0 67 100 28", "0 0 0 29", "30 0 0 100"],
@@ -403,6 +854,7 @@
       "POR": {
         "name": "Portland Trail Blazers",
         "league": "nba",
+        "images": ["nba/portland-trail-blazers.svg"],
         "colors": {
           "rgb": ["224 58 62", "186 195 201", "6 25 34"],
           "cmyk": ["0 91 76 6", "5 0 0 25", "30 0 0 100"],
@@ -412,6 +864,7 @@
       "SAC": {
         "name": "Sacramento Kings",
         "league": "nba",
+        "images": ["nba/sacramento-kings.svg"],
         "colors": {
           "rgb": ["114 76 159", "142 144 144", "6 25 34"],
           "cmyk": ["65 82 0 0", "46 37 38 2", "30 0 0 100"],
@@ -421,6 +874,7 @@
       "SAS": {
         "name": "San Antonio Spurs",
         "league": "nba",
+        "images": ["nba/san-antonio-spurs.svg"],
         "colors": {
           "rgb": ["186 195 201", "6 25 34"],
           "cmyk": ["5 0 0 25", "30 0 0 100"],
@@ -430,6 +884,7 @@
       "TOR": {
         "name": "Toronto Raptors",
         "league": "nba",
+        "images": ["nba/toronto-raptors.svg"],
         "colors": {
           "rgb": ["206 17 65", "6 25 34", "161 161 164", "180 151 90"],
           "cmyk": ["0 100 65 15", "30 0 0 100", "0 1 0 43", "20 30 70 15"],
@@ -439,6 +894,7 @@
       "UTA": {
         "name": "Utah Jazz",
         "league": "nba",
+        "images": ["nba/utah-jazz.svg"],
         "colors": {
           "rgb": ["0 43 92", "249 160 27", "0 71 27", "190 192 194"],
           "cmyk": ["100 64 0 60", "0 43 100 0", "80 0 90 75", "0 0 0 29"],
@@ -448,26 +904,625 @@
       "WAS": {
         "name": "Washington Wizards",
         "league": "nba",
+        "images": ["nba/washington-wizards.svg"],
         "colors": {
           "rgb": ["0 43 92", "227 24 55", "196 206 212"],
           "cmyk": ["100 64 0 60", "0 100 81 4", "5 0 0 20"],
           "pms": ["289", "186", "877"]
         }
-      }    
+      }
     }
   },
   "NFL": {
     "name": "National Football League",
     "image": "leagues/nfl.svg",
     "teams": {
-
+      "ARI": {
+        "name": "Arizona Cardinals",
+        "league": "nfl",
+        "images": ["nba/arizona-cardinals.svg"],
+        "colors": {
+          "hex": ["97233F", "000000", "FFB612", "A5ACAF"],
+          "rgb": ["135 0 39", "0 0 0", "238 173 30", "155 161 162"],
+          "cmyk": ["0 100 60 30", "70 50 50 100", "0 25 100 0", "5 0 0 30"],
+          "pms": ["194 C", "Process Black C", "1235 C", "429 C"]
+        }
+      },
+      "ATL": {
+        "name": "Atlanta Falcons",
+        "league": "nfl",
+        "images": ["nba/atlanta-falcons.svg"],
+        "colors": {
+          "hex": ["A71930", "000000", "A5ACAF"],
+          "rgb": ["163 13 45", "0 0 0", "166 174 176"],
+          "cmyk": ["20 100 80 0", "70 50 50 100", "5 0 0 25"],
+          "pms": ["187 C", "Process Black C", "877 C"]
+        }
+      },
+      "BAL": {
+        "name": "Baltimore Ravens",
+        "league": "nfl",
+        "images": ["nba/baltimore-ravens.svg"],
+        "colors": {
+          "hex": ["241773", "000000", "9E7C0C", "C60C30"],
+          "rgb": ["26 25 95", "0 0 0", "187 147 52", "213 10 10"],
+          "cmyk": ["100 100 0 5", "70 50 50 100", "0 20 80 20", "10 100 100 0"],
+          "pms": ["273 C", "Process Black C", "8660 C Metallic", "186 C"]
+        }
+      },
+      "BUF": {
+        "name": "Buffalo Bills",
+        "league": "nfl",
+        "images": ["nba/buffalo-bills.svg"],
+        "colors": {
+          "hex": ["00338D", "C60C30"],
+          "rgb": ["12 46 130", "213 10 10"],
+          "cmyk": ["100 60 0 20", "10 100 100 0"],
+          "pms": ["287 C", "186 C"]
+        }
+      },
+      "CAR": {
+        "name": "Carolina Panthers",
+        "league": "nfl",
+        "images": ["nba/carolina-panthers.svg"],
+        "colors": {
+          "hex": ["0085CA", "000000", "BFC0BF"],
+          "rgb": ["0 133 202", "0 0 0", "191 192 191"],
+          "cmyk": ["100 10 0 5", "100 40 0 100", "0 0 0 20"],
+          "pms": ["Process Blue C", "Black 6 C", "421 C"]
+        }
+      },
+      "CHI": {
+        "name": "Chicago Bears",
+        "league": "nfl",
+        "images": ["nba/chicago-bears.svg"],
+        "colors": {
+          "hex": ["0B162A", "C83803"],
+          "rgb": ["11 22 42", "200 56 3"],
+          "cmyk": ["100 60 0 80", "0 75 100 0"],
+          "pms": ["5395 C", "1665 C"]
+        }
+      },
+      "CIN": {
+        "name": "Cincinnati Bengals",
+        "league": "nfl",
+        "images": ["nba/cincinnati-bengals.svg"],
+        "colors": {
+          "hex": ["000000", "FB4F14"],
+          "rgb": ["0 0 0", "211 47 30"],
+          "cmyk": ["70 50 50 100", "0 85 100 0"],
+          "pms": ["Process Black C", "1655 C"]
+        }
+      },
+      "CLE": {
+        "name": "Cleveland Browns",
+        "league": "nfl",
+        "images": ["nba/cleveland-browns.svg"],
+        "colors": {
+          "hex": ["FB4F14", "22150C", "A5ACAF"],
+          "rgb": ["211 47 30", "34 21 12", "155 161 162"],
+          "cmyk": ["0 75 100 0", "1 33 85 94", "5 0 0 30"],
+          "pms": ["1655 C", "NFL Cleveland Browns", "429 C"]
+        }
+      },
+      "DAL": {
+        "name": "Dallas Cowboys",
+        "league": "nfl",
+        "images": ["nba/dallas-cowboys.svg"],
+        "colors": {
+          "hex": ["002244", "B0B7BC", "ACC0C6", "A5ACAF", "00338D", "000000"],
+          "rgb": ["0 21 50", "176 183 188", "186 202 211", "155 161 162", "12 46 130", "0 0 0"],
+          "cmyk": ["100 65 0 60", "3 0 0 32", "10 0 0 20", "0 0 0 20", "100 60 0 20", "70 50 50 100"],
+          "pms": ["289 C", "8180 C Metallic", "8240 C", "429 C", "287 C", "Process Black"]
+        }
+      },
+      "DEN": {
+        "name": "Denver Broncos",
+        "league": "nfl",
+        "images": ["nba/denver-broncos.svg"],
+        "colors": {
+          "hex": ["002244", "FB4F14"],
+          "rgb": ["0 35 76", "255 82 0"],
+          "cmyk": ["100 72 0 64", "0 82 100 0"],
+          "pms": ["289 C", "1655 C"]
+        }
+      },
+      "DET": {
+        "name": "Detroit Lions",
+        "league": "nfl",
+        "images": ["nba/detroit-lions.svg"],
+        "colors": {
+          "hex": ["005A8B", "B0B7BC", "000000"],
+          "rgb": ["0 78 137", "176 183 188", "0 0 0"],
+          "cmyk": ["100 45 0 10", "3 0 0 32", "70 50 50 100"],
+          "pms": ["7462 C", "429", "Process Black C"]
+        }
+      },
+      "GB": {
+        "name": "Green Bay Packers",
+        "league": "nfl",
+        "images": ["nba/green-bay-packers.svg"],
+        "colors": {
+          "hex": ["203731", "FFB612"],
+          "rgb": ["28 45 37", "238 173 30"],
+          "cmyk": ["70 40 60 60", "0 25 100 0"],
+          "pms": ["5535 C", "1235 C"]
+        }
+      },
+      "HOU": {
+        "name": "Houston Texans",
+        "league": "nfl",
+        "images": ["nba/houston-texans.svg"],
+        "colors": {
+          "hex": ["03202F", "A71930"],
+          "rgb": ["0 7 28", "163 13 45"],
+          "cmyk": ["100 60 0 80", "0 100 79 20"],
+          "pms": ["5395 C", "187 C"]
+        }
+      },
+      "IND": {
+        "name": "Indianapolis Colts",
+        "league": "nfl",
+        "images": ["nba/indianapolis-colts.svg"],
+        "colors": {
+          "hex": ["002C5F", "A5ACAF"],
+          "rgb": ["1 51 105", "155 161 162"],
+          "cmyk": ["100 65 0 35", "5 0 0 30"],
+          "pms": ["654 C", "429 C"]
+        }
+      },
+      "JAX": {
+        "name": "Jacksonville Jaguars",
+        "league": "nfl",
+        "images": ["nba/jacksonville-jaguars.svg"],
+        "colors": {
+          "hex": ["000000", "006778", "9F792C", "D7A22A"],
+          "rgb": ["0 0 0", "0 101 118", "159 121 44", "215 162 42"],
+          "cmyk": ["70 50 50 100", "100 0 20 30", "34 48 100 13", "17 37 100 0"],
+          "pms": ["Process Black C", "3155 C", "126 C", "7555 C"]
+        }
+      },
+      "KC": {
+        "name": "Kansas City Chiefs",
+        "league": "nfl",
+        "images": ["nba/kansas-city-chiefs.svg"],
+        "colors": {
+          "hex": ["E31837", "FFB612", "000000"],
+          "rgb": ["227 24 55", "238 173 30", "0 0 0"],
+          "cmyk": ["0 100 81 4", "0 25 100 0", "70 50 50 100"],
+          "pms": ["186 C", "1235 C", "Process Black C"]
+        }
+      },
+      "LAR": {
+        "name": "Los Angeles Rams",
+        "league": "nfl",
+        "images": ["nba/los-angeles-rams.svg"],
+        "colors": {
+          "hex": ["002244", "B3995D"],
+          "rgb": ["0 21 50", "175 146 93"],
+          "cmyk": ["100 65 0 60", "5 20 50 20"],
+          "pms": ["289 C", "465 C"]
+        }
+      },
+      "MIA": {
+        "name": "Miami Dolphins",
+        "league": "nfl",
+        "images": ["nba/miami-dolphins.svg"],
+        "colors": {
+          "hex": ["008E97", "F58220", "005778"],
+          "rgb": ["0 142 151", "245 130 32", "0 87 120"],
+          "cmyk": ["100 21 42 2", "0 60 100 0", "100 61 35 15"],
+          "pms": ["321 C", "151 C", "7701 C"]
+        }
+      },
+      "MIN": {
+        "name": "Minnesota Vikings",
+        "league": "nfl",
+        "images": ["nba/minnesota-vikings.svg"],
+        "colors": {
+          "hex": ["4F2683", "FFC62F", "E9BF9B", "000000"],
+          "rgb": ["79 38 131", "255 198 47", "233 191 155", "0 0 0"],
+          "cmyk": ["82 100 0 12", "0 23 91 0", "0 30 30 5", "70 50 50 100"],
+          "pms": ["268 C", "123 C", "720 C", "Process Black C"]
+        }
+      },
+      "NE": {
+        "name": "New England Patriots",
+        "league": "nfl",
+        "images": ["nba/new-england-patriots.svg"],
+        "colors": {
+          "hex": ["002244", "C60C30", "B0B7BC"],
+          "rgb": ["0 21 50", "213 10 10", "176 183 188"],
+          "cmyk": ["100 65 0 60", "10 100 100 0", "3 0 0 32"],
+          "pms": ["289 C", "186 C", "429 C"]
+        }
+      },
+      "NO": {
+        "name": "New Orleans Saints",
+        "league": "nfl",
+        "images": ["nba/new-orleans-saints.svg"],
+        "colors": {
+          "hex": ["9F8958", "000000"],
+          "rgb": ["159 137 88", "0 0 0"],
+          "cmyk": ["37 40 74 8", "70 50 50 100"],
+          "pms": ["8383 C Metallic", "Process Black C"]
+        }
+      },
+      "NYG": {
+        "name": "New York Giants",
+        "league": "nfl",
+        "images": ["nba/new-york-giants.svg"],
+        "colors": {
+          "hex": ["0B2265", "A71930", "A5ACAF"],
+          "rgb": ["1 35 82", "163 13 45", "155 161 162"],
+          "cmyk": ["100 75 0 30", "20 100 80 0", "5 0 0 30"],
+          "pms": ["2758 C", "187 C", "429 C"]
+        }
+      },
+      "NYJ": {
+        "name": "New York Jets",
+        "league": "nfl",
+        "images": ["nba/new-york-jets.svg"],
+        "colors": {
+          "hex": ["203731"],
+          "rgb": ["28 45 37"],
+          "cmyk": ["70 40 60 60"],
+          "pms": ["5535 C"]
+        }
+      },
+      "OAK": {
+        "name": "Oakland Raiders",
+        "league": "nfl",
+        "images": ["nba/oakland-raiders.svg"],
+        "colors": {
+          "hex": ["A5ACAF", "000000"],
+          "rgb": ["166 174 176", "0 0 0"],
+          "cmyk": ["5 0 0 25", "70 50 50 100"],
+          "pms": ["429 C", "Process Black C"]
+        }
+      },
+      "PHI": {
+        "name": "Philadelphia Eagles",
+        "league": "nfl",
+        "images": ["nba/philadelphia-eagles.svg"],
+        "colors": {
+          "hex": ["004953", "A5ACAF", "ACC0C6", "000000", "565A5C"],
+          "rgb": ["0 49 53", "191 192 191", "186 202 211", "0 0 0", "95 96 98"],
+          "cmyk": ["100 0 30 70", "5 0 0 25", "10 0 0 20", "70 50 50 100", "0 0 0 80"],
+          "pms": ["316 C", "429 C", "8240 C Metallic", "Process Black C", "425 C"]
+        }
+      },
+      "PIT": {
+        "name": "Pittsburgh Steelers",
+        "league": "nfl",
+        "images": ["nba/pittsburgh-steelers.svg"],
+        "colors": {
+          "hex": ["000000", "FFB612", "C60C30", "00539B", "A5ACAF"],
+          "rgb": ["0 0 0", "238 173 30", "213 10 10", "0 83 155", "155 161 162"],
+          "cmyk": ["70 50 50 100", "0 25 100 0", "10 100 100 0", "100 68 0 12", "5 0 0 30"],
+          "pms": ["Process Black C", "1235 C", "186 C", "287 C", "429 C"]
+        }
+      },
+      "LAC": {
+        "name": "Los Angeles Chargers",
+        "league": "nfl",
+        "images": ["nba/los-angeles-chargers.svg"],
+        "colors": {
+          "hex": ["002244", "0073CF", "FFB612"],
+          "rgb": ["0 21 50", "0 128 197", "238 173 30"],
+          "cmyk": ["100 65 0 60", "90 40 0 0", "0 25 100 0"],
+          "pms": ["289 C", "285 C", "1235 C"]
+        }
+      },
+      "SF": {
+        "name": "San Francisco 49ers",
+        "league": "nfl",
+        "images": ["nba/san-francisco-49ers.svg"],
+        "colors": {
+          "hex": ["AA0000", "B3995D", "000000", "A5ACAF"],
+          "rgb": ["170 0 0", "175 146 93", "0 0 0", "155 161 162"],
+          "cmyk": ["0 100 59 26", "5 20 50 20", "70 50 50 100", "5 0 0 30"],
+          "pms": ["187C", "465 C", "Process Black C", "429 C"]
+        }
+      },
+      "SEA": {
+        "name": "Seattle Seahawks",
+        "league": "nfl",
+        "images": ["nba/seattle-seahawks.svg"],
+        "colors": {
+          "hex": ["002244", "69BE28", "A5ACAF"],
+          "rgb": ["0 21 50", "105 190 40", "155 161 162"],
+          "cmyk": ["100 65 0 60", "57 0 84 0", "5 0 0 30"],
+          "pms": ["289 C", "368 C", "429 C"]
+        }
+      },
+      "TB": {
+        "name": "Tampa Bay Buccaneers",
+        "league": "nfl",
+        "images": ["nba/tampa-bay-buccaneers.svg"],
+        "colors": {
+          "hex": ["D50A0A", "34302B", "000000", "FF7900", "B1BABF"],
+          "rgb": ["213 10 10", "52 48 43", "0 0 0", "255 121 0", "177 186 191"],
+          "cmyk": ["10 100 100 0", "64 61 65 64", "70 50 50 100", "0 50 100 0", "5 0 0 30"],
+          "pms": ["186 C", "Black 7 C", "Process Black C", "151 C", "421 C"]
+        }
+      },
+      "TEN": {
+        "name": "Tennessee Titans",
+        "league": "nfl",
+        "images": ["nba/tennessee-titans.svg"],
+        "colors": {
+          "hex": ["002244", "4B92DB", "C60C30", "A5ACAF"],
+          "rgb": ["0 21 50", "68 149 210", "213 10 10", "191 192 191"],
+          "cmyk": ["100 65 0 60", "70 30 0 0", "10 100 100 0", "5 0 0 25"],
+          "pms": ["289 C", "279 C", "186 C", "421 C"]
+        }
+      },
+      "WAS": {
+        "name": "Washington Redskins",
+        "league": "nfl",
+        "images": ["nba/washington-redskins.svg"],
+        "colors": {
+          "hex": ["773141", "FFB612", "000000", "5B2B2F"],
+          "rgb": ["63 16 16", "238 173 30", "0 0 0", "91 43 47"],
+          "cmyk": ["20 100 60 30", "0 25 100 0", "70 50 50 100", "0 80 70 70"],
+          "pms": ["195 C", "1235 C", "Process Black C", "490 C"]
+        }
+      }
     }
   },
   "NHL": {
     "name": "National Hockey League",
     "image": "leagues/nhl.svg",
     "teams": {
-
+      "AFM":{
+        "name": "Anaheim Ducks",
+        "league": "nhl",
+        "image": "nhl/anaheim-ducks.svg",
+        "colors": {
+          "hex": ["010101", "a2aaad", "fc4c02", "85714d"]
+        }
+      },
+      "ARI": {
+        "name": "Arizona Coyotes",
+        "league": "nhl",
+        "image": "nhl/arizona-coyotes.svg",
+        "colors": {
+          "hex": ["010101", "862633", "ddcba4"]
+        }
+      },
+      "BOS": {
+        "name": "Boston Bruins",
+        "league": "nhl",
+        "image": "nhl/boston-bruins.svg",
+        "colors": {
+          "hex": ["010101", "ffb81c"]
+        }
+      },
+      "BUF": {
+        "name": "Buffalo Sabres",
+        "league": "nhl",
+        "image": "nhl/buffalo-sabres.svg",
+        "colors": {
+          "hex": ["041e42", "a2aaad", "ffb81c", "c8102e"]
+        }
+      },
+      "CGY": {
+        "name": "Calgary Flames",
+        "league": "nhl",
+        "image": "nhl/calgary-flames.svg",
+        "colors": {
+          "hex": ["010101", "f1be48", "c8102e"]
+        }
+      },
+      "CAR": {
+        "name": "Carolina Hurricanes",
+        "league": "nhl",
+        "image": "nhl/carolina-hurricanes.svg",
+        "colors": {
+          "hex": ["010101", "a2aaad", "c8102e"]
+        }
+      },
+      "CHI": {
+        "name": "Chicago Blackhawks",
+        "league": "nhl",
+        "image": "nhl/chicago-blackhawks.svg",
+        "colors": {
+          "hex": ["010101", "ff671f", "ffd100", "001871", "c8102e", "00843d", "cc8a00"]
+        }
+      },
+      "COL": {
+        "name": "Colorado Avalanche",
+        "league": "nhl",
+        "image": "nhl/colorado-avalanche.svg",
+        "colors": {
+          "hex": ["010101", "236192", "a4a9ad", "6f263d"]
+        }
+      },
+      "CBJ": {
+        "name": "Columbus Blue Jackets",
+        "league": "nhl",
+        "image": "nhl/columbus-blue-jackets.svg",
+        "colors": {
+          "hex": ["041e42", "a4a9ad", "c8102e"]
+        }
+      },
+      "DAL": {
+        "name": "Dallas Stars",
+        "league": "nhl",
+        "image": "nhl/dallas-stars.svg",
+        "colors": {
+          "hex": ["010101", "006341", "8a8d8f"]
+        }
+      },
+      "DET": {
+        "name": "Detroit Red Wings",
+        "league": "nhl",
+        "image": "nhl/detroit-red-wings.svg",
+        "colors": {
+          "hex": ["c8102e"]
+        }
+      },
+      "EDM": {
+        "name": "Edmonton Oilers",
+        "league": "nhl",
+        "image": "nhl/edmonton-oilers.svg",
+        "colors": {
+          "hex": ["00205b", "cf4520"]
+        }
+      },
+      "FLA": {
+        "name": "Florida Panthers",
+        "league": "nhl",
+        "image": "nhl/florida-panthers.svg",
+        "colors": {
+          "hex": ["041e42", "b9975b", "c8102e"]
+        }
+      },
+      "LAK": {
+        "name": "Los Angeles Kings",
+        "league": "nhl",
+        "image": "nhl/los-angeles-kings.svg",
+        "colors": {
+          "hex": ["010101", "a2aaad"]
+        }
+      },
+      "MIN": {
+        "name": "Minnesota Wild",
+        "league": "nhl",
+        "image": "nhl/minnesota-wild.svg",
+        "colors": {
+          "hex": ["154734", "ddcba4", "eaaa00", "a6192e"]
+        }
+      },
+      "MTL": {
+        "name": "Montreal Canadiens",
+        "league": "nhl",
+        "image": "nhl/montreal-canadiens.svg",
+        "colors": {
+          "hex": ["001e62", "a6192e"]
+        }
+      },
+      "NSH": {
+        "name": "Nashville Predators",
+        "league": "nhl",
+        "image": "nhl/nashville-predators.svg",
+        "colors": {
+          "hex": ["041e42", "ffb81c"]
+        }
+      },
+      "NJD": {
+        "name": "New Jersey Devils",
+        "league": "nhl",
+        "image": "nhl/new-jersey-devils.svg",
+        "colors": {
+          "hex": ["010101", "c8102e"]
+        }
+      },
+      "NYI": {
+        "name": "New York Islanders",
+        "league": "nhl",
+        "image": "nhl/new-york-islanders.svg",
+        "colors": {
+          "hex": ["003087", "fc4c02"]
+        }
+      },
+      "NYR": {
+        "name": "New York Rangers",
+        "league": "nhl",
+        "image": "nhl/new-york-rangers.svg",
+        "colors": {
+          "hex": ["0033a0", "c8102e"]
+        }
+      },
+      "OTT": {
+        "name": "Ottawa Senators",
+        "league": "nhl",
+        "image": "nhl/ottawa-senators.svg",
+        "colors": {
+          "hex": ["010101", "c8102e", "c69214"]
+        }
+      },
+      "PHI": {
+        "name": "Philadelphia Flyers",
+        "league": "nhl",
+        "image": "nhl/philadelphia-flyers.svg",
+        "colors": {
+          "hex": ["010101", "fa4616"]
+        }
+      },
+      "PIT": {
+        "name": "Pittsburgh Penguins",
+        "league": "nhl",
+        "image": "nhl/pittsburgh-penguins.svg",
+        "colors": {
+          "hex": ["010101", "ffb81c"]
+        }
+      },
+      "SJS": {
+        "name": "San Jose Sharks",
+        "league": "nhl",
+        "image": "nhl/san-jose-sharks.svg",
+        "colors": {
+          "hex": ["010101", "e57200", "006272"]
+        }
+      },
+      "STL": {
+        "name": "St Louis Blues",
+        "league": "nhl",
+        "image": "nhl/st-louis-blues.svg",
+        "colors": {
+          "hex": ["041e42", "ffb81c", "003087"]
+        }
+      },
+      "TBL": {
+        "name": "Tampa Bay Lightning",
+        "league": "nhl",
+        "image": "nhl/tampa-bay-lightning.svg",
+        "colors": {
+          "hex": ["00205b"]
+        }
+      },
+      "TOR": {
+        "name": "Toronto Maple Leafs",
+        "league": "nhl",
+        "image": "nhl/toronto-maple-leafs.svg",
+        "colors": {
+          "hex": ["00205b"]
+        }
+      },
+      "VAN": {
+        "name": "Vancouver Canucks",
+        "league": "nhl",
+        "image": "nhl/vancouver-canucks.svg",
+        "colors": {
+          "hex": ["00205b", "97999b", "041c2c"]
+        }
+      },
+      "VGK": {
+        "name": "Vegas Golden Knights",
+        "league": "nhl",
+        "image": "nhl/vegas-golden-knights.svg",
+        "colors": {
+          "hex": ["010101", "b4975a", "333f42"]
+        }
+      },
+      "WSH": {
+        "name": "Washington Capitals",
+        "league": "nhl",
+        "image": "nhl/washington-capitals.svg",
+        "colors": {
+          "hex": ["041e42", "a2aaad", "782f40", "a6192e", "53565a"]
+        }
+      },
+      "WPG": {
+        "name": "Winnipeg Jets",
+        "league": "nhl",
+        "image": "nhl/winnipeg-jets.svg",
+        "colors": {
+          "hex": ["041e42", "c8102e"]
+        }
+      }
     }
-  }  
+  }
 }
